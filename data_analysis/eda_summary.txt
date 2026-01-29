@@ -1,0 +1,31 @@
+
+BIRD CLASSIFICATION EDA SUMMARY
+============================================================
+
+Dataset Statistics:
+- Training samples: 1,082
+- Validation samples: 103
+- Test samples: 400
+- Number of classes: 20
+
+Image Characteristics:
+- Average width: 468.2 pixels
+- Average height: 396.5 pixels
+- Average aspect ratio: 1.23
+- Average file size: 106.5 KB
+
+Class Balance:
+- Imbalance ratio: 1.14
+- Most common class: Groove_billed_Ani (58 samples)
+- Least common class: Yellow_breasted_Chat (51 samples)
+
+Data Quality:
+- Corrupted images: 0
+- Grayscale images: 1
+- Very small images: 0
+
+Recommended Model Settings:
+- Input size: 224x224 or 384x384
+- Batch size: 32-64
+- Use class weights: No
+- Suggested architectures: EfficientNet, ViT, ConvNeXt
